@@ -1,0 +1,103 @@
+
+@media (max-width: 1000px) {
+  :root {
+    --sidebar-width: 220px;
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .climate-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  .sidebar {
+    display: none;
+  }
+
+  .dashboard-main {
+    margin-left: 0;
+  }
+
+  .dashboard-content {
+    padding: 18px 14px;
+  }
+
+  .navbar {
+    height: 62px;
+    padding: 0 14px;
+  }
+
+  .mobile-menu {
+    display: inline-grid;
+  }
+
+  .navbar-search {
+    display: none;
+  }
+
+  .climate-grid,
+  .charts-grid,
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .district-selector {
+    flex-direction: column;
+  }
+
+  .map-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 18px 14px;
+  }
+
+  .welcome-header {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .welcome-header nav {
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .welcome-hero {
+    min-height: 360px;
+    padding: 55px 7%;
+  }
+
+  .auth-card {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  h1 {
+    font-size: 23px;
+  }
+
+  .navbar-actions {
+    gap: 9px;
+  }
+
+  .language-switcher {
+    min-width: 95px;
+    font-size: 11px;
+  }
+
+  .weather-temperature {
+    font-size: 40px;
+  }
+}
