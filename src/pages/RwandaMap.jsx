@@ -8,7 +8,7 @@ function RwandaMapPage() {
   return (
     <div className="page-container">
       <div className="page-heading">
-        <h1>Rwanda Climate Map</h1>
+        <h1>ikarita y'u rwanda</h1>
         <p>Explore climate information by province and district.</p>
       </div>
 
